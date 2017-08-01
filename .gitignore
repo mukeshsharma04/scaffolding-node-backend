@@ -104,10 +104,10 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
-.gitignore
+
 .idea/babydestination-backend.iml
 .idea/inspectionProfiles/
 .idea/misc.xml
 .idea/modules.xml
 .idea/workspace.xml
-package.json
+.idea/vcs.xml
