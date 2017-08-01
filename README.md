@@ -27,3 +27,15 @@ This README would normally document whatever steps are necessary to get your app
 
 * Repo owner or admin
 * Other community or team contact
+
+### Folder Structure ###
+
+* models/ – represents data, implements business logic and handles storage
+* controllers/ – defines your app routes and their logic
+* helpers/ – code and functionality to be shared by different parts of the project
+* middlewares/ – Express middlewares which process the incoming requests before handling them down to the routes
+* tests/ – tests everything which is in the other folders
+* node_modules/ - all npm requried for app
+* app.js – initializes the app and glues everything together
+* package.json – remembers all packages that your app depends on and their versions
+
