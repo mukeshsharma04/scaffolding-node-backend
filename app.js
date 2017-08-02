@@ -12,6 +12,7 @@ app.use(logger("dev"));
 app.use("/base", baseRoute);
 
 app.listen(process.env.APP_PORT, () => {
+  console.log('MYSQL', process.env.MYSQL_DB_USERNAME); // eslint-disable-line
   console.log('Node app is running on port', process.env.APP_PORT); // eslint-disable-line
 });
 
