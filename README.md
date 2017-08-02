@@ -31,7 +31,8 @@ This README would normally document whatever steps are necessary to get your app
 ### Folder Structure ###
 
 * models/ – represents data, implements business logic and handles storage
-* controllers/ – defines your app routes and their logic
+* controllers/ – defines your app routes logic
+* routes/ - defines your app routes
 * helpers/ – code and functionality to be shared by different parts of the project
 * middlewares/ – Express middlewares which process the incoming requests before handling them down to the routes
 * tests/ – tests everything which is in the other folders
