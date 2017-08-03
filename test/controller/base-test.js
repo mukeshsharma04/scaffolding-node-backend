@@ -7,8 +7,8 @@ var baseController = require("./../../controller/base");
 chai.use(chaiHttp);
 
 describe("Base Controller", function () {
-    it("test function should return string only", function () {
-        let get_data = baseController.test();
-        expect(get_data).to.be.a("string");
-    });
+  it("test function should return string only", function () {
+    let get_data = baseController.test();
+    expect(get_data).to.be.a("string");
+  });
 });
